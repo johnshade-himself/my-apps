@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Support</title>
+  <meta name="description" content="Support page." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <a class="pill" href="./" aria-label="Back to apps">← Back to Apps</a>
+
+    <header class="top">
+      <a id="appStoreTop"
+         href="#"
+         target="_blank"
+         rel="noopener"
+         style="display:flex;align-items:center;gap:14px;color:inherit;text-decoration:none;">
+        <div class="icon lg"><img id="appIcon" src="" alt="App icon" /></div>
+        <div>
+          <h1 id="title" style="margin:0 0 4px;">Support</h1>
+          <p id="tagline" class="sub">Help, questions, and feedback • EN / IT</p>
+        </div>
+      </a>
+
+      <div class="actions">
+        <a id="appStoreBtn" class="btn primary" href="#" target="_blank" rel="noopener">View on App Store</a>
+        <a id="reviewBtn" class="btn" href="#" target="_blank" rel="noopener" style="display:none;">Rate the app</a>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card full">
+        <h2>About</h2>
+        <p id="description" class="sub">—</p>
+      </section>
+
+      <section class="card">
+        <h2>Support (English)</h2>
+        <p>Email: <a id="supportEn" href="#">—</a></p>
+        <p class="sub">To help me respond faster, include:</p>
+        <ul>
+          <li>Device model + iOS version</li>
+          <li>What you were doing</li>
+          <li>Screenshot / screen recording (if possible)</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Supporto (Italiano)</h2>
+        <p>Email: <a id="supportIt" href="#">—</a></p>
+        <p class="sub">Per rispondere più velocemente, indica:</p>
+        <ul>
+          <li>Modello dispositivo + versione iOS</li>
+          <li>Cosa stavi facendo</li>
+          <li>Screenshot / registrazione schermo (se possibile)</li>
+        </ul>
+      </section>
+
+      <section id="videoCard" class="card full" style="display:none;">
+        <h2>Quick Preview</h2>
+        <p class="sub">A short demo / trailer.</p>
+
+        <div class="videoFrame">
+          <iframe
+            id="youtubeFrame"
+            src=""
+            title="App preview video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+
+        <p class="sub" style="margin-top:10px;">
+          Or open on YouTube:
+          <a id="youtubeLink" href="#" target="_blank" rel="noopener">Watch</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Sergei Tereshkin
+    </footer>
+  </div>
+
+  <script src="./app-detail.js"></script>
+</body>
+</html>
