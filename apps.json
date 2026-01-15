@@ -8,7 +8,7 @@
       "icon": "./reel-roulette/icon.png",
       "appStoreUrl": "#",
       "reviewUrl": "",
-      "privacyUrl": "./reel-roulette/encoding.html",
+      "privacyUrl": "./reel-roulette/privacy.html",
       "supportEmail": "serj.tereshkin@gmail.com",
       "youtubeId": "lWd8ZBh56Oc"
     },
@@ -20,7 +20,7 @@
       "icon": "./encoding/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/shady-encoding/id6757672242",
       "reviewUrl": "",
-      "privacyUrl": "./privacy/encoding.html",
+      "privacyUrl": "./encoding/privacy.html",
       "supportEmail": "serj.tereshkin@gmail.com",
       "youtubeId": "IP0gBcyeBRY"
     },
