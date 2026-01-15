@@ -6,7 +6,7 @@
       "tagline": "Movie search, watchlists, and a movie wheel picker.",
       "description": "Search movies fast, build watchlists, and let the roulette wheel pick what to watch next.",
       "icon": "./reel-roulette/icon.png",
-      "appStoreUrl": "APPSTORE_URL",
+      "appStoreUrl": "#",
       "reviewUrl": "",
       "supportEmail": "serj.tereshkin@gmail.com",
       "youtubeId": "lWd8ZBh56Oc"
