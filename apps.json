@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {
+      "id": "reel-roulette",
+      "name": "Reel Roulette",
+      "tagline": "Movie search, watchlists, and a movie wheel picker.",
+      "description": "Find movies fast, build watchlists, and use a roulette wheel to pick something to watch.",
+      "appStoreUrl": "APPSTORE_URL",
+      "supportEmail": "serj.tereshkin@gmail.com",
+      "icon": "./assets/reel-roulette/icon.png",
+      "youtubeId": "YOUR_YOUTUBE_ID"
+    },
+    {
+      "id": "encoding",
+      "name": "Shady Encoding",
+      "tagline": "Utility to encode/decode text with custom keys.",
+      "description": "Encode/decode text with your own key. Quick, simple, offline.",
+      "appStoreUrl": "https://apps.apple.com/us/app/shady-encoding/id6757672242",
+      "supportEmail": "serj.tereshkin@gmail.com",
+      "icon": "./assets/encoding/icon.png",
+      "youtubeId": ""
+    }
+  ]
+}
