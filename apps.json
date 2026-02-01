@@ -1,5 +1,29 @@
 {
   "apps": [
+        {
+      "id": "landesk-host",
+      "name": "LanDesk Host",
+      "tagline": "Local network desktop",
+      "description": "Turn your Mac into a local network host and control it from another Mac or iPhone/iPad.",
+      "icon": "./landesk-host/icon.png",
+      "appStoreUrl": "",
+      "reviewUrl": "",
+      "privacyUrl": "./landesk-host/privacy.html",
+      "supportEmail": "serj.tereshkin@gmail.com",
+      "youtubeId": "EBOKK1HxXas"
+    },
+    {
+      "id": "landesk-remote",
+      "name": "LanDesk Remote",
+      "tagline": "Control your Mac over Wi-Fi",
+      "description": "Connect to LanDesk Host on your Mac and control it from iPhone or iPad — fast pairing, local-only by default.",
+      "icon": "./landesk-remote/icon.png",
+      "appStoreUrl": "",
+      "reviewUrl": "",
+      "privacyUrl": "./landesk-remote/privacy.html",
+      "supportEmail": "serj.tereshkin@gmail.com",
+      "youtubeId": "EBOKK1HxXas"
+    },
     {
       "id": "reel-roulette",
       "name": "Reel Roulette",
